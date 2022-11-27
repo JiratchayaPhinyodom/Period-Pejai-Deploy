@@ -1,0 +1,220 @@
+.calendar {
+  font-family: 'Gaegu', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.react-calendar {
+  font-family: 'Gaegu', cursive; 
+  width: 600px;
+  max-width: 100%;
+  background-color: #FFFAED;
+  color: #222;
+  border-radius: 8px;
+  border-color: #FFFAED;
+  font-family: 'Gaegu', cursive;
+  font-weight: bold;
+  line-height: 1.125em;
+ }
+
+ .calendar-container {
+  margin-left: 1.5cm;
+  border-style: solid;
+  border-radius: 2em;
+  padding: 0.5cm;
+  margin-bottom: 0.5cm;
+  border-color: #f8ad9d;
+ }
+ .react-calendar__navigation button {
+  color: #7b7aaf;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+ }
+ .react-calendar__navigation button:enabled:hover,
+ .react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+ }
+ abbr[title] {
+  text-decoration: none;
+ }
+ /* .react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+ } */
+ .react-calendar__tile:enabled:hover,
+ .react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #7b7aaf;
+  border-radius: 6px;
+ }
+ .react-calendar__tile--now {
+  background: #6f48eb33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #7b7aaf;
+ }
+ .react-calendar__tile--now:enabled:hover,
+ .react-calendar__tile--now:enabled:focus {
+  background: #6f48eb33;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #7b7aaf;
+ }
+ .react-calendar__tile--hasActive:enabled:hover,
+ .react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa;
+ }
+ .react-calendar__tile--active {
+  background: #7b7aaf;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+ }
+ .react-calendar__tile--active:enabled:hover,
+ .react-calendar__tile--active:enabled:focus {
+  background: #7b7aaf;
+  color: white;
+ }
+ .react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #7b7aaf;
+  border-radius: 0;
+ }
+ .react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #7b7aaf;
+  color: white;
+ }
+ .react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #7b7aaf;
+  color: white;
+ }
+
+ .highlight {
+  color:#7b7aaf;
+  border-radius: 3px;
+  background: #ffb5a7;
+}
+
+.highlight2 {
+  color:#7b7aaf;
+  border-radius: 3px;
+  background: rgb(211, 211, 211);
+}
+
+.highlight3 {
+  color:orange;
+  border-radius: 3px;
+  background: rgb(252, 255, 166);
+}
+
+.text-center-title {
+  margin-left: 4.5cm;
+  font-weight: bolder;
+  color:white;
+  border-style: solid;
+  border-color: #f79781;
+  border-radius: 1em;
+  background-color: #f8ad9d;
+  padding: 0.125cm;
+  padding-left: 0.5cm;
+  width: 10cm;
+  font-size: 30px;
+}
+
+.text-center {
+  margin-left: 5cm;
+  font-weight: bold;
+  border-style: solid;
+  border-color: #f0d8d2;
+  border-radius: 1em;
+  /* color: white; */
+  box-shadow: 0.25em 0.25em #f8ad9d;
+  padding: 0.25cm;
+  padding-left: 0.5cm;
+  background-color: white;
+  width: 9cm;
+  height: 1.25cm;
+  
+}
+
+.userperiod {
+  border-style: solid;
+  border-width: 0.25;
+  border-color: #f0d8d2;
+  border-radius: 1em;
+  color: white;
+  box-shadow: 0.25em 0.25em #f8ad9d;
+  display: flex;
+  width: 9cm; 
+  height: 1cm;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.diary-period {
+  margin-top: 1cm;
+  margin-left: 5cm;
+}
+
+.backtosetting {
+  display: flex;
+  justify-content: flex-start;
+  border-style: solid;
+  border-color: #b8bedd;
+  background-color: #b8bedd;
+  border-radius: 3em;
+  height: 2.5em;
+  width: 8em;
+  color: white;
+  margin-left: 1cm;
+  margin-top: 1cm;
+}
+.set {
+  font-size: 25px;
+  padding-left: 0.5cm;
+}
+
+.icon_set {
+  margin-top: 0.175cm;
+  padding-right: 0.25cm;
+}
+
+.backtosetting:hover, .backtologin:hover {
+  border-color: #1377b5;
+}
+
+.period-submit {
+  margin-top: 15px;
+  margin-left: 15em;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Gaegu', cursive;
+  font-weight: bold;
+  background: #7B7AAF;
+  border-radius: 30px;
+  color: white;
+  height: 2em;
+  width: 5em;
+}
+
+.space {
+  height: 15px;
+}
